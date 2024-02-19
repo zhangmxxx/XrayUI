@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21C568A32B8305960091B38C /* Xray_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568A22B8305960091B38C /* Xray_UIApp.swift */; };
+		21C568A52B8305960091B38C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568A42B8305960091B38C /* ContentView.swift */; };
+		21C568A72B8305980091B38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C568A62B8305980091B38C /* Assets.xcassets */; };
+		21C568AA2B8305980091B38C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C568A92B8305980091B38C /* Preview Assets.xcassets */; };
+		21C568B42B8305980091B38C /* Xray_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568B32B8305980091B38C /* Xray_UITests.swift */; };
+		21C568BE2B8305980091B38C /* Xray_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568BD2B8305980091B38C /* Xray_UIUITests.swift */; };
+		21C568C02B8305980091B38C /* Xray_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568BF2B8305980091B38C /* Xray_UIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21C568B02B8305980091B38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21C568972B8305960091B38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C5689E2B8305960091B38C;
+			remoteInfo = "Xray-UI";
+		};
+		21C568BA2B8305980091B38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21C568972B8305960091B38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C5689E2B8305960091B38C;
+			remoteInfo = "Xray-UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21C5689F2B8305960091B38C /* Xray-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xray-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C568A22B8305960091B38C /* Xray_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xray_UIApp.swift; sourceTree = "<group>"; };
+		21C568A42B8305960091B38C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21C568A62B8305980091B38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21C568A92B8305980091B38C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21C568AF2B8305980091B38C /* Xray-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xray-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C568B32B8305980091B38C /* Xray_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xray_UITests.swift; sourceTree = "<group>"; };
+		21C568B92B8305980091B38C /* Xray-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xray-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C568BD2B8305980091B38C /* Xray_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xray_UIUITests.swift; sourceTree = "<group>"; };
+		21C568BF2B8305980091B38C /* Xray_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xray_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21C5689C2B8305960091B38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C568AC2B8305980091B38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C568B62B8305980091B38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21C568962B8305960091B38C = {
+			isa = PBXGroup;
+			children = (
+				21C568A12B8305960091B38C /* Xray-UI */,
+				21C568B22B8305980091B38C /* Xray-UITests */,
+				21C568BC2B8305980091B38C /* Xray-UIUITests */,
+				21C568A02B8305960091B38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21C568A02B8305960091B38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21C5689F2B8305960091B38C /* Xray-UI.app */,
+				21C568AF2B8305980091B38C /* Xray-UITests.xctest */,
+				21C568B92B8305980091B38C /* Xray-UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21C568A12B8305960091B38C /* Xray-UI */ = {
+			isa = PBXGroup;
+			children = (
+				21C568A22B8305960091B38C /* Xray_UIApp.swift */,
+				21C568A42B8305960091B38C /* ContentView.swift */,
+				21C568A62B8305980091B38C /* Assets.xcassets */,
+				21C568A82B8305980091B38C /* Preview Content */,
+			);
+			path = "Xray-UI";
+			sourceTree = "<group>";
+		};
+		21C568A82B8305980091B38C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21C568A92B8305980091B38C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21C568B22B8305980091B38C /* Xray-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				21C568B32B8305980091B38C /* Xray_UITests.swift */,
+			);
+			path = "Xray-UITests";
+			sourceTree = "<group>";
+		};
+		21C568BC2B8305980091B38C /* Xray-UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21C568BD2B8305980091B38C /* Xray_UIUITests.swift */,
+				21C568BF2B8305980091B38C /* Xray_UIUITestsLaunchTests.swift */,
+			);
+			path = "Xray-UIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21C5689E2B8305960091B38C /* Xray-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C568C32B8305980091B38C /* Build configuration list for PBXNativeTarget "Xray-UI" */;
+			buildPhases = (
+				21C5689B2B8305960091B38C /* Sources */,
+				21C5689C2B8305960091B38C /* Frameworks */,
+				21C5689D2B8305960091B38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xray-UI";
+			productName = "Xray-UI";
+			productReference = 21C5689F2B8305960091B38C /* Xray-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21C568AE2B8305980091B38C /* Xray-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C568C62B8305980091B38C /* Build configuration list for PBXNativeTarget "Xray-UITests" */;
+			buildPhases = (
+				21C568AB2B8305980091B38C /* Sources */,
+				21C568AC2B8305980091B38C /* Frameworks */,
+				21C568AD2B8305980091B38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21C568B12B8305980091B38C /* PBXTargetDependency */,
+			);
+			name = "Xray-UITests";
+			productName = "Xray-UITests";
+			productReference = 21C568AF2B8305980091B38C /* Xray-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21C568B82B8305980091B38C /* Xray-UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C568C92B8305980091B38C /* Build configuration list for PBXNativeTarget "Xray-UIUITests" */;
+			buildPhases = (
+				21C568B52B8305980091B38C /* Sources */,
+				21C568B62B8305980091B38C /* Frameworks */,
+				21C568B72B8305980091B38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21C568BB2B8305980091B38C /* PBXTargetDependency */,
+			);
+			name = "Xray-UIUITests";
+			productName = "Xray-UIUITests";
+			productReference = 21C568B92B8305980091B38C /* Xray-UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21C568972B8305960091B38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					21C5689E2B8305960091B38C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					21C568AE2B8305980091B38C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 21C5689E2B8305960091B38C;
+					};
+					21C568B82B8305980091B38C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 21C5689E2B8305960091B38C;
+					};
+				};
+			};
+			buildConfigurationList = 21C5689A2B8305960091B38C /* Build configuration list for PBXProject "Xray-UI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21C568962B8305960091B38C;
+			productRefGroup = 21C568A02B8305960091B38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21C5689E2B8305960091B38C /* Xray-UI */,
+				21C568AE2B8305980091B38C /* Xray-UITests */,
+				21C568B82B8305980091B38C /* Xray-UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21C5689D2B8305960091B38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C568AA2B8305980091B38C /* Preview Assets.xcassets in Resources */,
+				21C568A72B8305980091B38C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C568AD2B8305980091B38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C568B72B8305980091B38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21C5689B2B8305960091B38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C568A52B8305960091B38C /* ContentView.swift in Sources */,
+				21C568A32B8305960091B38C /* Xray_UIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C568AB2B8305980091B38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C568B42B8305980091B38C /* Xray_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C568B52B8305980091B38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C568C02B8305980091B38C /* Xray_UIUITestsLaunchTests.swift in Sources */,
+				21C568BE2B8305980091B38C /* Xray_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21C568B12B8305980091B38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21C5689E2B8305960091B38C /* Xray-UI */;
+			targetProxy = 21C568B02B8305980091B38C /* PBXContainerItemProxy */;
+		};
+		21C568BB2B8305980091B38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21C5689E2B8305960091B38C /* Xray-UI */;
+			targetProxy = 21C568BA2B8305980091B38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21C568C12B8305980091B38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21C568C22B8305980091B38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21C568C42B8305980091B38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xray-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = L979XF3964;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simenons-Zhang.Xray-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21C568C52B8305980091B38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xray-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = L979XF3964;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simenons-Zhang.Xray-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21C568C72B8305980091B38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L979XF3964;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simenons-Zhang.Xray-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xray-UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xray-UI";
+			};
+			name = Debug;
+		};
+		21C568C82B8305980091B38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L979XF3964;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simenons-Zhang.Xray-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xray-UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xray-UI";
+			};
+			name = Release;
+		};
+		21C568CA2B8305980091B38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L979XF3964;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simenons-Zhang.Xray-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Xray-UI";
+			};
+			name = Debug;
+		};
+		21C568CB2B8305980091B38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L979XF3964;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simenons-Zhang.Xray-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Xray-UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21C5689A2B8305960091B38C /* Build configuration list for PBXProject "Xray-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C568C12B8305980091B38C /* Debug */,
+				21C568C22B8305980091B38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C568C32B8305980091B38C /* Build configuration list for PBXNativeTarget "Xray-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C568C42B8305980091B38C /* Debug */,
+				21C568C52B8305980091B38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C568C62B8305980091B38C /* Build configuration list for PBXNativeTarget "Xray-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C568C72B8305980091B38C /* Debug */,
+				21C568C82B8305980091B38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C568C92B8305980091B38C /* Build configuration list for PBXNativeTarget "Xray-UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C568CA2B8305980091B38C /* Debug */,
+				21C568CB2B8305980091B38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21C568972B8305960091B38C /* Project object */;
+}
