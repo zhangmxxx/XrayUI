@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import XrayCore
+import Greeter
 
 struct ContentView: View {
     var body: some View {

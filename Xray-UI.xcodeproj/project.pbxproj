@@ -14,6 +14,9 @@
 		21C568B42B8305980091B38C /* Xray_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568B32B8305980091B38C /* Xray_UITests.swift */; };
 		21C568BE2B8305980091B38C /* Xray_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568BD2B8305980091B38C /* Xray_UIUITests.swift */; };
 		21C568C02B8305980091B38C /* Xray_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568BF2B8305980091B38C /* Xray_UIUITestsLaunchTests.swift */; };
+		21C568D22B835E4B0091B38C /* XrayCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C568D12B835E4B0091B38C /* XrayCore.xcframework */; };
+		21C568D92B8481B30091B38C /* SwiftPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568D82B8481B30091B38C /* SwiftPrinter.swift */; };
+		21C568DB2B848AD20091B38C /* Greeter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C568DA2B848AD20091B38C /* Greeter.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		21C568B92B8305980091B38C /* Xray-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xray-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C568BD2B8305980091B38C /* Xray_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xray_UIUITests.swift; sourceTree = "<group>"; };
 		21C568BF2B8305980091B38C /* Xray_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xray_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21C568D12B835E4B0091B38C /* XrayCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XrayCore.xcframework; path = "../../Xray-core/XrayCore.xcframework"; sourceTree = "<group>"; };
+		21C568D82B8481B30091B38C /* SwiftPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrinter.swift; sourceTree = "<group>"; };
+		21C568DA2B848AD20091B38C /* Greeter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Greeter.xcframework; path = ../../Greeter/greeter/Greeter.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C568DB2B848AD20091B38C /* Greeter.xcframework in Frameworks */,
+				21C568D22B835E4B0091B38C /* XrayCore.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,7 @@
 				21C568B22B8305980091B38C /* Xray-UITests */,
 				21C568BC2B8305980091B38C /* Xray-UIUITests */,
 				21C568A02B8305960091B38C /* Products */,
+				21C568CC2B8305DE0091B38C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +105,7 @@
 			children = (
 				21C568A22B8305960091B38C /* Xray_UIApp.swift */,
 				21C568A42B8305960091B38C /* ContentView.swift */,
+				21C568D82B8481B30091B38C /* SwiftPrinter.swift */,
 				21C568A62B8305980091B38C /* Assets.xcassets */,
 				21C568A82B8305980091B38C /* Preview Content */,
 			);
@@ -125,6 +135,15 @@
 				21C568BF2B8305980091B38C /* Xray_UIUITestsLaunchTests.swift */,
 			);
 			path = "Xray-UIUITests";
+			sourceTree = "<group>";
+		};
+		21C568CC2B8305DE0091B38C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21C568DA2B848AD20091B38C /* Greeter.xcframework */,
+				21C568D12B835E4B0091B38C /* XrayCore.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C568D92B8481B30091B38C /* SwiftPrinter.swift in Sources */,
 				21C568A52B8305960091B38C /* ContentView.swift in Sources */,
 				21C568A32B8305960091B38C /* Xray_UIApp.swift in Sources */,
 			);

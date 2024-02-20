@@ -1,0 +1,8 @@
+framework module "V2Ray" {
+	header "ref.h"
+    header "Entry.objc.h"
+    header "Universe.objc.h"
+    header "V2Ray.h"
+
+    export *
+}
