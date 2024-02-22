@@ -10,6 +10,7 @@ import Greeter
 import XrayCore
 // can not simulate on device error?
 // switch emb option to Do Not Embed help (do not know the meanings)
+// 其实不用解析config,直接传给core
 
 @main
 struct Xray_UIApp: App {
@@ -18,7 +19,7 @@ struct Xray_UIApp: App {
             ContentView()
         }
     }
-	// why init here? check protocol App
+	// why overriding init here? check protocol App
 	init() {
 		EntryRunMain()
 	}

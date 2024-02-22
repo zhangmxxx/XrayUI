@@ -17,6 +17,7 @@
 		21C568D92B8481B30091B38C /* SwiftPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568D82B8481B30091B38C /* SwiftPrinter.swift */; };
 		21C568DB2B848AD20091B38C /* Greeter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C568DA2B848AD20091B38C /* Greeter.xcframework */; };
 		21C5691B2B86F2FD0091B38C /* XrayCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C5691A2B86F2FD0091B38C /* XrayCore.xcframework */; };
+		21C569202B8740DD0091B38C /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 21C5691F2B8740DD0091B38C /* config.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		21C568DA2B848AD20091B38C /* Greeter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Greeter.xcframework; path = ../../Greeter/greeter/Greeter.xcframework; sourceTree = "<group>"; };
 		21C569192B86F1BB0091B38C /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		21C5691A2B86F2FD0091B38C /* XrayCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XrayCore.xcframework; path = ../../XrayCore.xcframework; sourceTree = "<group>"; };
+		21C5691F2B8740DD0091B38C /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				21C568A42B8305960091B38C /* ContentView.swift */,
 				21C568D82B8481B30091B38C /* SwiftPrinter.swift */,
 				21C568A62B8305980091B38C /* Assets.xcassets */,
+				21C5691F2B8740DD0091B38C /* config.json */,
 				21C568A82B8305980091B38C /* Preview Content */,
 			);
 			path = "Xray-UI";
@@ -254,6 +257,7 @@
 			files = (
 				21C568AA2B8305980091B38C /* Preview Assets.xcassets in Resources */,
 				21C568A72B8305980091B38C /* Assets.xcassets in Resources */,
+				21C569202B8740DD0091B38C /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

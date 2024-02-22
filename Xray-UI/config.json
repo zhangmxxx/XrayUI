@@ -1,0 +1,79 @@
+{
+  "log": {
+	"access": "",
+	"error": "",
+	"loglevel": "info"
+  },
+  "inbounds": [
+	{
+	  "listen": "127.0.0.1",
+	  "protocol": "socks",
+	  "port": "1145",
+	  "settings": {
+		"auth": "noauth",
+		"udp": false
+	  }
+	},
+	{
+	  "protocol": "http",
+	  "settings": {
+		"timeout": 360
+	  },
+	  "listen": "127.0.0.1",
+	  "port": "1087"
+	}
+  ],
+  "outbounds": [
+	{
+	  "tag": "proxy",
+	  "settings": {
+		"servers": [
+		  {
+			"email": "",
+			"password": "fsfjFazqu2Zm3KZK",
+			"level": 0,
+			"port": 5710,
+			"address": "144.34.161.146",
+			"ota": false,
+			"method": "aes-256-gcm"
+		  }
+		]
+	  },
+	  "streamSettings": {
+		"network": "tcp",
+		"security": "none",
+		"tcpSettings": {
+		  "header": {
+			"type": "none"
+		  }
+		}
+	  },
+	  "protocol": "shadowsocks"
+	},
+	{
+	  "protocol": "freedom",
+	  "tag": "direct",
+	  "settings": {
+		"userLevel": 0,
+		"domainStrategy": "UseIP"
+	  }
+	},
+	{
+	  "tag": "block",
+	  "protocol": "blackhole",
+	  "settings": {
+		"response": {
+		  "type": "none"
+		}
+	  }
+	}
+  ],
+  "dns": {},
+  "routing": {
+	"settings": {
+	  "rules": [],
+	  "domainStrategy": "AsIs"
+	}
+  },
+  "transport": {}
+}
