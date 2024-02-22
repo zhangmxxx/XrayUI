@@ -14,9 +14,9 @@
 		21C568B42B8305980091B38C /* Xray_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568B32B8305980091B38C /* Xray_UITests.swift */; };
 		21C568BE2B8305980091B38C /* Xray_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568BD2B8305980091B38C /* Xray_UIUITests.swift */; };
 		21C568C02B8305980091B38C /* Xray_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568BF2B8305980091B38C /* Xray_UIUITestsLaunchTests.swift */; };
-		21C568D22B835E4B0091B38C /* XrayCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C568D12B835E4B0091B38C /* XrayCore.xcframework */; };
 		21C568D92B8481B30091B38C /* SwiftPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C568D82B8481B30091B38C /* SwiftPrinter.swift */; };
 		21C568DB2B848AD20091B38C /* Greeter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C568DA2B848AD20091B38C /* Greeter.xcframework */; };
+		21C5691B2B86F2FD0091B38C /* XrayCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C5691A2B86F2FD0091B38C /* XrayCore.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +47,10 @@
 		21C568B92B8305980091B38C /* Xray-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xray-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C568BD2B8305980091B38C /* Xray_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xray_UIUITests.swift; sourceTree = "<group>"; };
 		21C568BF2B8305980091B38C /* Xray_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xray_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		21C568D12B835E4B0091B38C /* XrayCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XrayCore.xcframework; path = "../../Xray-core/XrayCore.xcframework"; sourceTree = "<group>"; };
 		21C568D82B8481B30091B38C /* SwiftPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrinter.swift; sourceTree = "<group>"; };
 		21C568DA2B848AD20091B38C /* Greeter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Greeter.xcframework; path = ../../Greeter/greeter/Greeter.xcframework; sourceTree = "<group>"; };
+		21C569192B86F1BB0091B38C /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		21C5691A2B86F2FD0091B38C /* XrayCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XrayCore.xcframework; path = ../../XrayCore.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C5691B2B86F2FD0091B38C /* XrayCore.xcframework in Frameworks */,
 				21C568DB2B848AD20091B38C /* Greeter.xcframework in Frameworks */,
-				21C568D22B835E4B0091B38C /* XrayCore.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +141,9 @@
 		21C568CC2B8305DE0091B38C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21C5691A2B86F2FD0091B38C /* XrayCore.xcframework */,
+				21C569192B86F1BB0091B38C /* libresolv.tbd */,
 				21C568DA2B848AD20091B38C /* Greeter.xcframework */,
-				21C568D12B835E4B0091B38C /* XrayCore.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -455,6 +457,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Simenons-Zhang.Xray-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -484,6 +488,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Simenons-Zhang.Xray-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

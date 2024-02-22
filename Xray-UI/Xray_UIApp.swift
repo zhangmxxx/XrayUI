@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-import Greeter 
+import Greeter
+import XrayCore
 // can not simulate on device error?
 // switch emb option to Do Not Embed help (do not know the meanings)
 
@@ -19,14 +20,6 @@ struct Xray_UIApp: App {
     }
 	// why init here? check protocol App
 	init() {
-		// print(1)
-		let printer = SwiftPrinter()
-		let greeter = GreeterNewGreeter(printer)
-		if let _ = greeter {
-			greeter?.greet("Lumix")
-		}
-		else {
-			print("init greeter failed!")
-		}
+		EntryRunMain()
 	}
 }
