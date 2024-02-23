@@ -8,12 +8,13 @@
 import SwiftUI
 import Greeter
 import XrayCore
+import NetworkExtension
 // can not simulate on device error?
 // switch emb option to Do Not Embed help (do not know the meanings)
 // 其实不用解析config,直接传给core
 
 @main
-struct Xray_UIApp: App {
+struct XRocketApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
